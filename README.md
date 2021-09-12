@@ -1,6 +1,4 @@
-## What is this?
-
-**(TL;DR: Project 1 for COMP90015 Distributed Systems)**
+### Dictionary Server
 
 This is a simple dictionary system that allows clients to search the meaning(s) of a word, add a new word, and remove an existing word. 
 
@@ -10,7 +8,7 @@ The system follows a client-server architecture in which multiple clients can co
 - Communications between server and clients are via TCP sockets
 - Used CSV format for the message exchange protocol 
 
-## What can I do with this?
+## Functionalities
 
 - Query the meaning(s) of a given word 
   - Input: Word to search 
@@ -24,7 +22,7 @@ The system follows a client-server architecture in which multiple clients can co
   - Input: Word to remove 
   - Output: Status of the operation (e.g., success, not found) 
 
-## How?
+## Running the program
 
 To start the server:
 
